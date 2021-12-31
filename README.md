@@ -79,7 +79,7 @@ One table with property reviews information from the reviews.csv file
 **Screenshots of 10 tables from database along with the data below:**
 
 1. Airbnb
-
+![image](https://user-images.githubusercontent.com/96445991/147801447-cdb00961-191c-4280-95c1-bab466cdd3d8.png)
 
 
 2. Property Availability
