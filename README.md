@@ -79,18 +79,44 @@ One table with property reviews information from the reviews.csv file
 **Screenshots of 10 tables from database along with the data below:**
 
 1. Airbnb
+
 ![image](https://user-images.githubusercontent.com/96445991/147801447-cdb00961-191c-4280-95c1-bab466cdd3d8.png)
 
-
 2. Property Availability
-3. Location
+
+![image](https://user-images.githubusercontent.com/96445991/147801482-1e95c6c0-3baf-4e6d-be6b-cd445218c5e8.png)
+
+3. Location 
+
+![image](https://user-images.githubusercontent.com/96445991/147801492-ead46dcf-5f39-4bbf-a0eb-18865957f63a.png)
+
 4. Host
+
+![image](https://user-images.githubusercontent.com/96445991/147801497-0d56a867-a82a-480f-bcd9-288401c86778.png)
+
 5. Calender
+
+![image](https://user-images.githubusercontent.com/96445991/147801501-8015adf2-d3d7-49ab-96c6-0ee8dec73f97.png)
+
 6. City
+
+![image](https://user-images.githubusercontent.com/96445991/147801518-d821a9b5-334b-493e-9136-d05385f3f667.png)
+
 7. Price
+
+![image](https://user-images.githubusercontent.com/96445991/147801524-ecc1056a-8f5a-4da2-ae9a-99bdbb706c29.png)
+
 8. Property type
+
+![image](https://user-images.githubusercontent.com/96445991/147801526-f837bcae-b883-40e5-bed2-35185b00e88e.png)
+
 9. Review rating
+
+![image](https://user-images.githubusercontent.com/96445991/147801533-01b01a04-e211-446d-9beb-162c8674a6e7.png)
+
 10. State
+
+![image](https://user-images.githubusercontent.com/96445991/147801539-9b20299b-e551-46a9-afe0-cf9ca0bc85c0.png)
 
 
 
