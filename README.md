@@ -51,6 +51,46 @@ One table with property reviews information from the reviews.csv file
 16.	City has M:1 relationship with State. As one state can have multiple cities.
 
 
+**Entity-Relationship Diagram**
 
 ![image](https://user-images.githubusercontent.com/96445991/147801266-db0ad244-fe15-4f97-893e-3f52e4608205.png)
+
+
+**Physical MySQL Database**
+- **Notes About Data Set**
+
+1.	AirBnb: Contains unique listing ID of each and every AirBnB property.
+2.	Host: Identifies details of Airbnb property owners.
+3.	Calender: Contains information about available date and price of airbnb’s.
+4.	Review_Rating: It stores review related data like dates, score and accuracy
+5.	Comments_review: contains reviewers name and there comment
+6.	Price: contains price details of the specific property.
+7.	Property_availability: contains maximum and minimum nights available details of specific property.
+8.	Property_type: Describes property features like no. of bedrooms, baths etc.
+9.	Location: Stores information of the neighborhood.
+10.	Street: Has all the data of the streets where AirBNB’s are located.
+11.	Zipcode: Zipcode of all the address is stored in here.
+12.	City: Stored the cities where AirBNB’s are located.
+13.	State: Stored the cities where AirBNB’s are located.
+
+
+**Screen shot of Physical Database objects**
+
+**Screenshots of 10 tables from database along with the data below:**
+
+1. Airbnb
+
+
+
+2. Property Availability
+3. Location
+4. Host
+5. Calender
+6. City
+7. Price
+8. Property type
+9. Review rating
+10. State
+
+
 
