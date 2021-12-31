@@ -12,26 +12,29 @@ ________________________________________________________________________________
 
 **Extract**
 _________________________________________________________________________________________________________________________________________________________________________________
-- CSV files are taken from a Kaggle web page and saved in the "Resources" folder
-- Data is extracted from the four CSV files in the "Resources" folder
-- Excel is used to extract data from the CSV files is listed below:
+- CSV files are taken from a Kaggle web page
+- Data is extracted from the CSV zip files
+- Excel is used to extract data from the CSV files which are listed below:
 1. listings.csv
 2. calendar.csv
 3. reviews.csv
 
-Idea for Relational Database Schema
-Fourteen tables:
-One table with hosts information from the listings.csv file
-One table of review rating from the reviews.csv file
-One table of review from t
-
-
-
-
-or listings information from the listings.csv file
-One table with hosts information from the listings.csv file
-One table with property availability information from the calendar.csv file
-One table with property reviews information from the reviews.csv file
+**Idea for Relational Database Schema**
+Looking at the Data I have decided to create Fourteen tables in order to make it in 3NF format:
+- Hosts table
+- Calender table
+- Review rating table
+- Review table
+- Location table
+- AirBnb table
+- Comments_review
+- Street
+- Zipcode
+- City
+- State
+- Property_Type
+- Property_availability
+- Price
 
 
 **Relational Data Model**
@@ -80,6 +83,7 @@ ________________________________________________________________________________
 11.	Zipcode: Zipcode of all the address is stored in here.
 12.	City: Stored the cities where AirBNB’s are located.
 13.	State: Stored the cities where AirBNB’s are located.
+14.	Review: Contains every review Id, host ID & airbnb ID.
 
 
 **Data in the Database:**
