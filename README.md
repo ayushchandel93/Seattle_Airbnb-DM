@@ -1,7 +1,7 @@
 # Seattle_Airbnb-DM
 
 **Data Source**
-Kaggle: https://www.kaggle.com/airbnb/seattle
+- Kaggle: https://www.kaggle.com/airbnb/seattle
 
 **Data Files**
 1. One listings.csv file that contains Airbnb listing information and Airbnb host information
