@@ -1,9 +1,11 @@
-# Seattle_Airbnb-DM
+# Seattle_Airbnb Relational Database Model in 3NF and Physical Database Creation
 
 **Data Source**
+_________________________________________________________________________________________________________________________________________________________________________________
 - Kaggle: https://www.kaggle.com/airbnb/seattle
 
 **Data Files**
+_________________________________________________________________________________________________________________________________________________________________________________
 - One listings.csv file that contains Airbnb listing information and Airbnb host information
 - One calendar.csv file that contains property availability information throughout the year
 - One reviews.csv file that contains Airbnb property reviews information
