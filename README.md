@@ -11,6 +11,7 @@ ________________________________________________________________________________
 - One reviews.csv file that contains Airbnb property reviews information
 
 **Extract**
+_________________________________________________________________________________________________________________________________________________________________________________
 - CSV files are taken from a Kaggle web page and saved in the "Resources" folder
 - Data is extracted from the four CSV files in the "Resources" folder
 - Excel is used to extract data from the CSV files is listed below:
@@ -32,8 +33,11 @@ One table with hosts information from the listings.csv file
 One table with property availability information from the calendar.csv file
 One table with property reviews information from the reviews.csv file
 
+
 **Relational Data Model**
+_________________________________________________________________________________________________________________________________________________________________________________
 - **Assumptions/Notes About Data Entities and Relationships**
+
 
 1.	Airbnb has 1:M relationship with review rating. Each Airbnb can have multiple review ratings.
 2.	Host has 1:M relationship with Airbnb. As host can have several Airbnb properties.
@@ -59,6 +63,8 @@ One table with property reviews information from the reviews.csv file
 
 
 **Physical MySQL Database**
+_________________________________________________________________________________________________________________________________________________________________________________
+
 - **Notes About Data Set**
 
 1.	AirBnb: Contains unique listing ID of each and every AirBnB property.
@@ -75,7 +81,9 @@ One table with property reviews information from the reviews.csv file
 12.	City: Stored the cities where AirBNB’s are located.
 13.	State: Stored the cities where AirBNB’s are located.
 
+
 **Data in the Database:**
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/96445991/147801761-a1efa1c8-3fa7-41e2-884b-1be767629f40.png)
 
@@ -83,40 +91,50 @@ One table with property reviews information from the reviews.csv file
 
 
 **Screen shot of Physical Database objects**
+_________________________________________________________________________________________________________________________________________________________________________________
 
 **Screenshots of 10 tables from database along with the data below:**
+_________________________________________________________________________________________________________________________________________________________________________________
 
 1. Airbnb
 
 ![image](https://user-images.githubusercontent.com/96445991/147801447-cdb00961-191c-4280-95c1-bab466cdd3d8.png)
 
+
 2. Property Availability
 
 ![image](https://user-images.githubusercontent.com/96445991/147801482-1e95c6c0-3baf-4e6d-be6b-cd445218c5e8.png)
+
 
 3. Location 
 
 ![image](https://user-images.githubusercontent.com/96445991/147801492-ead46dcf-5f39-4bbf-a0eb-18865957f63a.png)
 
+
 4. Host
 
 ![image](https://user-images.githubusercontent.com/96445991/147801497-0d56a867-a82a-480f-bcd9-288401c86778.png)
+
 
 5. Calender
 
 ![image](https://user-images.githubusercontent.com/96445991/147801501-8015adf2-d3d7-49ab-96c6-0ee8dec73f97.png)
 
+
 6. City
 
 ![image](https://user-images.githubusercontent.com/96445991/147801518-d821a9b5-334b-493e-9136-d05385f3f667.png)
+
 
 7. Price
 
 ![image](https://user-images.githubusercontent.com/96445991/147801524-ecc1056a-8f5a-4da2-ae9a-99bdbb706c29.png)
 
+
 8. Property type
 
 ![image](https://user-images.githubusercontent.com/96445991/147801526-f837bcae-b883-40e5-bed2-35185b00e88e.png)
+
 
 9. Review rating
 
