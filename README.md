@@ -50,3 +50,7 @@ One table with property reviews information from the reviews.csv file
 15.	Zipcode has M:1 relationship with City. In a single city there are many zipcodes according to areas.
 16.	City has M:1 relationship with State. As one state can have multiple cities.
 
+
+
+![image](https://user-images.githubusercontent.com/96445991/147801266-db0ad244-fe15-4f97-893e-3f52e4608205.png)
+
