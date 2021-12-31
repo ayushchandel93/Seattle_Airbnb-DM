@@ -1,14 +1,14 @@
 # Seattle_Airbnb-DM
 
-Data Source
+**Data Source**
 Kaggle: https://www.kaggle.com/airbnb/seattle
 
-Data Files
+**Data Files**
 1. One listings.csv file that contains Airbnb listing information and Airbnb host information
 2. One calendar.csv file that contains property availability information throughout the year
 3. One reviews.csv file that contains Airbnb property reviews information
 
-Idea for Relational Database Schema
+**Idea for Relational Database Schema**
 Four tables:
 One table for listings information from the listings.csv file
 One table with hosts information from the listings.csv file
