@@ -73,6 +73,29 @@ One table with property reviews information from the reviews.csv file
 12.	City: Stored the cities where AirBNB’s are located.
 13.	State: Stored the cities where AirBNB’s are located.
 
+**Data in the Database:**
+
+Data in the Database:
+Sr. No.	Table Name	Primary Key	Foreign Key	# of Rows in Table
+1	Host	Host_id		1000
+2	Calendar	Calendar_ID	AirBnB_ID	1000
+3	Review Rating	Review_Rating_ID	AirBnB_ID	1000
+4	Review	Review_id	AirBnB_ID Host_host_id
+Comments_review_revier	1000
+5	Location	Location_ID	Street_Street_ID	1000
+6	AirBnB	ID	Host_host_id Price_Price_ID Property_Type_Property_ID Location_Location_ID	1000
+7	Comments_review	Reviewer_ID		1000
+8	Street	Street_ID	Zipcode_Zip_ID	1000
+9	Zipcode	Zip_ID	City_City_ID	1000
+10	City	City_ID	State_State_ID	1000
+11	State	State_ID		1000
+12	Property_Type	Property_ID	Host_host_id	1000
+13	Property_availability	Property_availability
+_ID	AirBnB_ID	1000
+14	Price	Price_ID	Property_type_property_ID	1000
+
+
+
 
 **Screen shot of Physical Database objects**
 
