@@ -16,9 +16,22 @@
 2. calendar.csv
 3. reviews.csv
 
+Idea for Relational Database Schema
+Fourteen tables:
+One table with hosts information from the listings.csv file
+One table of review rating from the reviews.csv file
+One table of review from t
 
-**Relational Data Model
-Assumptions/Notes About Data Entities and Relationships**
+
+
+
+or listings information from the listings.csv file
+One table with hosts information from the listings.csv file
+One table with property availability information from the calendar.csv file
+One table with property reviews information from the reviews.csv file
+
+**Relational Data Model**
+- **Assumptions/Notes About Data Entities and Relationships**
 
 1.	Airbnb has 1:M relationship with review rating. Each Airbnb can have multiple review ratings.
 2.	Host has 1:M relationship with Airbnb. As host can have several Airbnb properties.
